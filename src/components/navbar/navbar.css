@@ -22,12 +22,9 @@
 .nav-link:link {
   color: #371a74;
 }
-.nav-link:visited {
+/* .nav-link:visited {
   color: rgb(125, 32, 136, 0.75);
-}
+} */
 .nav-link:hover {
   text-shadow: #cf7599 1px 0 10px;
-}
-.nav-link::after:visited {
-  color: #371a74;
 }
