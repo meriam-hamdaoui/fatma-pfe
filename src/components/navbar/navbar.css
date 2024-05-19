@@ -13,7 +13,6 @@
   height: 50px;
 }
 .nav-trendy > h4 {
-  /* color: #17285e; */
   color: #371a74;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -22,9 +21,13 @@
 .nav-link:link {
   color: #371a74;
 }
-/* .nav-link:visited {
-  color: rgb(125, 32, 136, 0.75);
-} */
+.nav-link:visited {
+  color: #371a74;
+}
 .nav-link:hover {
-  text-shadow: #cf7599 1px 0 10px;
+  color: rgb(125, 32, 136, 0.75);
+}
+.nav-link:active {
+  /* text-shadow: #cf7599 1px 0 10px; */
+  color: #17285e;
 }
